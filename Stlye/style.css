@@ -1,0 +1,14 @@
+.topNav{
+    float: right;
+    text-align: center;
+}
+
+.fLeft{
+    float: left;
+}
+.navBar{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 auto;
+    
+}
