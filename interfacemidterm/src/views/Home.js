@@ -6,6 +6,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea, CardActions } from "@mui/material";
+import shoe from "../images/shoes.jpg"
 function homeView(props) {
   return (
     <>
@@ -23,7 +24,7 @@ function homeView(props) {
           </div>
         </div>
       </header>
-      <main>
+      <main sx={{ml:"10vw"}}>
         <Grid container spacing={2}>
           <Grid item xs={6}>
             <Card sx={{ maxWidth: "40vw" }}>
@@ -31,17 +32,19 @@ function homeView(props) {
                 <CardMedia
                   component="img"
                   height="140"
-                  image="/static/images/cards/contemplative-reptile.jpg"
-                  alt="green iguana"
+                  image={shoe}
+                  alt="green iguana"    
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Lizard
+                   Nike 300 ----- $160
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    <button className="sizeButton"> 9</button>
+                    <button className="sizeButton"> 10</button>
+                    <button className="sizeButton"> 10.5</button>
+                    <button className="sizeButton"> 11</button>
+                    <button className="sizeButton"> 12</button>
                   </Typography>
                 </CardContent>
               </CardActionArea>
