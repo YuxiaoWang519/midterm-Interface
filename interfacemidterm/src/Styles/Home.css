@@ -1,0 +1,25 @@
+.headerNav{
+    background-color: #f0f3f0;
+    padding-left:10vw;
+    padding-right:10vw;
+    padding-top: 2vh;
+    height: 5vh;
+}
+.fLeft{
+    float:left;
+
+}
+.fRight{
+    float:right;
+}
+.margin2{
+    margin-left: 2vw;
+   
+}
+.bold{
+    font-weight: bold;
+}
+.navItem:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
