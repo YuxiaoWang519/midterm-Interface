@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/midterm-Interface/static/css/main.9533e3a2.css",
+    "main.js": "/midterm-Interface/static/js/main.ff9e5b31.js",
+    "static/media/shoes.jpg": "/midterm-Interface/static/media/shoes.200bcaf604051e5d0600.jpg",
+    "index.html": "/midterm-Interface/index.html",
+    "main.9533e3a2.css.map": "/midterm-Interface/static/css/main.9533e3a2.css.map",
+    "main.ff9e5b31.js.map": "/midterm-Interface/static/js/main.ff9e5b31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9533e3a2.css",
+    "static/js/main.ff9e5b31.js"
+  ]
+}
