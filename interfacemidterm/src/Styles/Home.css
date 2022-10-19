@@ -26,3 +26,12 @@
 .sizeButton{
     background-color: bisque;
 }
+
+
+@media screen and (max-width:799px) {
+
+   .Cards{
+    max-width: 80vw !important ;
+    width: 80vw !important;
+   }
+}

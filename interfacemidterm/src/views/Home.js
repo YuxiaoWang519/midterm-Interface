@@ -32,8 +32,8 @@ function HomeView() {
         </div>
       </header>
       <Container sx={{ml:"10vw", mr:"10vw", mt:"5vw"}}>
-        <Grid container spacing={2}>
-          <Grid item sm={12} md={6}>
+        <Grid container spacing={0}>
+          <Grid className="Cards" item sm={12} md={6}>
             <Card sx={{ maxWidth: "40vw" }} onClick={toDetail}>
               <CardActionArea>
                 <CardMedia
@@ -69,7 +69,7 @@ function HomeView() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item sm={12} md={6}>
+          <Grid className="Cards" item xs={12} sm={12} md={6}>
             <Card sx={{ maxWidth: "40vw" }} onClick={toDetail}>
               <CardActionArea>
                 <CardMedia
@@ -105,7 +105,7 @@ function HomeView() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item sm={12} md={6}>
+          <Grid className="Cards" item xs={12} sm={12} md={6}>
             <Card sx={{ maxWidth: "40vw" }} onClick={toDetail}>
               <CardActionArea>
                 <CardMedia
@@ -141,7 +141,7 @@ function HomeView() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item sm={12} md={6}>
+          <Grid  xs={12} sm={12} md={6}>
             <Card sx={{ maxWidth: "40vw" }} onClick={toDetail}>
               <CardActionArea>
                 <CardMedia
@@ -177,8 +177,8 @@ function HomeView() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item sm={12} md={6}>
-            <Card sx={{ maxWidth: "40vw" }} onClick={toDetail}>
+          <Grid className="Cards" item xs={12} sm={12} md={6}>
+            <Card className="Cards" sx={{ maxWidth: "40vw" }} onClick={toDetail}>
               <CardActionArea>
                 <CardMedia
                   component="img"
@@ -213,7 +213,7 @@ function HomeView() {
               </CardActions>
             </Card>
           </Grid>
-          <Grid item sm={12} md={6}>
+          <Grid className="Cards" item xs={12} sm={12} md={6}>
             <Card sx={{ maxWidth: "40vw" }} onClick={toDetail}>
               <CardActionArea>
                 <CardMedia
