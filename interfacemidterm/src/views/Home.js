@@ -7,7 +7,14 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea, CardActions } from "@mui/material";
 import shoe from "../images/shoes.jpg"
-function homeView(props) {
+import { useNavigate } from "react-router";
+function HomeView() {
+  let navigate = useNavigate();
+  const toDetail=()=>{
+    navigate("/Detail");
+  };  
+
+
   return (
     <>
       <header className="headerNav">
@@ -24,10 +31,10 @@ function homeView(props) {
           </div>
         </div>
       </header>
-      <main sx={{ml:"10vw"}}>
+      <Container sx={{ml:"10vw", mr:"10vw", mt:"5vw"}}>
         <Grid container spacing={2}>
-          <Grid item xs={6}>
-            <Card sx={{ maxWidth: "40vw" }}>
+          <Grid item sm={12} md={6}>
+            <Card sx={{ maxWidth: "40vw" }} onClick={toDetail}>
               <CardActionArea>
                 <CardMedia
                   component="img"
@@ -39,27 +46,214 @@ function homeView(props) {
                   <Typography gutterBottom variant="h5" component="div">
                    Nike 300 ----- $160
                   </Typography>
+                  <button>9</button>
+                  <button>10</button>
+                  <button>10.5</button>
+                  <button>11</button>
+                  <button>12</button>
+                  <Typography gutterBottom variant="h5" component="div">
+                   Reviews:
+                  </Typography>
                   <Typography variant="body2" color="text.secondary">
-                    <button className="sizeButton"> 9</button>
-                    <button className="sizeButton"> 10</button>
-                    <button className="sizeButton"> 10.5</button>
-                    <button className="sizeButton"> 11</button>
-                    <button className="sizeButton"> 12</button>
+                    @tayler: pretty good sneaker
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    @Yuxiao: A good purchase
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
                 <Button size="small" color="primary">
-                  Share
+                  see more
                 </Button>
               </CardActions>
             </Card>
           </Grid>
-          <Grid item xs={6}></Grid>
+          <Grid item sm={12} md={6}>
+            <Card sx={{ maxWidth: "40vw" }} onClick={toDetail}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image={shoe}
+                  alt="green iguana"    
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                   Nike 300 ----- $160
+                  </Typography>
+                  <button>9</button>
+                  <button>10</button>
+                  <button>10.5</button>
+                  <button>11</button>
+                  <button>12</button>
+                  <Typography gutterBottom variant="h5" component="div">
+                   Reviews:
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    @tayler: pretty good sneaker
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    @Yuxiao: A good purchase
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                <Button size="small" color="primary">
+                  see more
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item sm={12} md={6}>
+            <Card sx={{ maxWidth: "40vw" }} onClick={toDetail}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image={shoe}
+                  alt="green iguana"    
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                   Nike 300 ----- $160
+                  </Typography>
+                  <button>9</button>
+                  <button>10</button>
+                  <button>10.5</button>
+                  <button>11</button>
+                  <button>12</button>
+                  <Typography gutterBottom variant="h5" component="div">
+                   Reviews:
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    @tayler: pretty good sneaker
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    @Yuxiao: A good purchase
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                <Button size="small" color="primary">
+                  see more
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item sm={12} md={6}>
+            <Card sx={{ maxWidth: "40vw" }} onClick={toDetail}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image={shoe}
+                  alt="green iguana"    
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                   Nike 300 ----- $160
+                  </Typography>
+                  <button>9</button>
+                  <button>10</button>
+                  <button>10.5</button>
+                  <button>11</button>
+                  <button>12</button>
+                  <Typography gutterBottom variant="h5" component="div">
+                   Reviews:
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    @tayler: pretty good sneaker
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    @Yuxiao: A good purchase
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                <Button size="small" color="primary">
+                  see more
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item sm={12} md={6}>
+            <Card sx={{ maxWidth: "40vw" }} onClick={toDetail}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image={shoe}
+                  alt="green iguana"    
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                   Nike 300 ----- $160
+                  </Typography>
+                  <button>9</button>
+                  <button>10</button>
+                  <button>10.5</button>
+                  <button>11</button>
+                  <button>12</button>
+                  <Typography gutterBottom variant="h5" component="div">
+                   Reviews:
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    @tayler: pretty good sneaker
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    @Yuxiao: A good purchase
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                <Button size="small" color="primary">
+                  see more
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item sm={12} md={6}>
+            <Card sx={{ maxWidth: "40vw" }} onClick={toDetail}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image={shoe}
+                  alt="green iguana"    
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                   Nike 300 ----- $160
+                  </Typography>
+                  <button>9</button>
+                  <button>10</button>
+                  <button>10.5</button>
+                  <button>11</button>
+                  <button>12</button>
+                  <Typography gutterBottom variant="h5" component="div">
+                   Reviews:
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    @tayler: pretty good sneaker
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    @Yuxiao: A good purchase
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                <Button size="small" color="primary">
+                  see more
+                </Button>
+              </CardActions>
+            </Card>
+          </Grid>
+          
         </Grid>
-      </main>
+      </Container>
     </>
   );
 }
 
-export default homeView;
+export default HomeView;
